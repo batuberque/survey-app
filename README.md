@@ -67,6 +67,7 @@ Mobil Anket Uygulaması, kullanıcıların çeşitli konularda anket soruların�
 ## Proje Yapısı
 
 Proje, **React Native** ve **Expo** kullanılarak geliştirilmiştir. Ana dizin yapısı ve önemli dosyalar şu şekildedir:
+Expo-router, file system router kullanılmıştır.
 
 ```bash
 survey-app/
