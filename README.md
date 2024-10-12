@@ -77,11 +77,10 @@ survey-app/
 │   │   ├── survey/
 │   │   │   ├── _layout.tsx
 │   │   │   └── survey.ts
-│   ├── components/
-│   ├── hooks/
-│   ├── navigation/
-│   ├── redux/
-│   └── ...
+│   components/
+│   hooks/
+│   redux/
+│   ...
 ├── assets/
 ├── node_modules/
 ├── package.json
