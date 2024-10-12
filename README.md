@@ -116,7 +116,6 @@ survey-app/
 ### Anket Modülü
 - **Zamanlayıcı:** useTimer hook'u ile kullanıcının anket süresi takip edilmektedir.
 - **Dinamik Soru Yapısı:** Sorular survey.ts dosyasından dinamik olarak çekilmektedir.
-- **SOLID Prensipleri:** Uygulama, SOLID prensiplerine uygun olarak geliştirilmiştir.
 - **Navigasyon Yapısı:** Anket modülüne özgü navigasyon yapılandırılmıştır.
 
 ### Sonuçlar
@@ -148,6 +147,7 @@ survey-app/
 ## Performans ve Optimizasyon
 - **Code Splitting:** Kod bölme stratejileri kullanılmıştır.
 - **Memoization:** React.memo ve useMemo gibi yöntemlerle gereksiz renderlar önlenmiştir.
+- **SOLID Prensipleri:** Uygulama, SOLID prensiplerine uygun olarak geliştirilmiştir.
 
 ## Hata Yönetimi
 - **Toast Notifications:** Hata ve başarı mesajları için toast bildirimleri entegre edilmiştir.
@@ -160,5 +160,5 @@ survey-app/
 - **Redux Persist & AsyncStorage**
 
 ## Katkıda Bulunanlar
-- **Batuhan Berke**: [batuberque](https://github.com/batuberque)
+- **Batuhan Berk**: [batuberque](https://github.com/batuberque)
 
