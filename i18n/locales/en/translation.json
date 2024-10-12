@@ -1,0 +1,254 @@
+{
+  "welcome": "Welcome",
+  "toggle_theme_dark": "Switch to Dark Mode",
+  "toggle_theme_light": "Switch to Light Mode",
+  "change_language": "Change Language",
+  "item_count": "You have {{count}} item",
+  "item_count_plural": "You have {{count}} items",
+  "HOME": "HOME",
+  "SURVEY": "SURVEY",
+  "PROFILE": "PROFILE",
+  "RESULT": "RESULT",
+  "start_survey": "Start Survey",
+  "survey_intro": "Survey Intro",
+  "language": "Language",
+  "dark_mode": "Dark Mode",
+  "not_remember_create_account": "Not a member? Create an account",
+  "login": "Login",
+  "signup": "Sign Up",
+  "survey": {
+    "customerSatisfaction": {
+      "title": "Customer Satisfaction Survey",
+      "description": "We would like to hear your opinions about our products and services.",
+      "questions": {
+        "1": {
+          "questionText": "How satisfied are you with our products?"
+        },
+        "2": {
+          "questionText": "Which of our products have you used?",
+          "options": {
+            "1": "Product A",
+            "2": "Product B",
+            "3": "Product C"
+          }
+        },
+        "3": {
+          "questionText": "What are your thoughts about us?"
+        },
+        "4": {
+          "questionText": "How would you rate the quality of our customer service?"
+        },
+        "5": {
+          "questionText": "How do you find the prices of our products?",
+          "options": {
+            "1": "Very Affordable",
+            "2": "Affordable",
+            "3": "Expensive",
+            "4": "Very Expensive"
+          }
+        },
+        "6": {
+          "questionText": "What areas can we improve?"
+        }
+      }
+    },
+    "employeeSatisfaction": {
+      "title": "Employee Satisfaction Survey",
+      "description": "Your feedback about our working environment is important to us.",
+      "questions": {
+        "1": {
+          "questionText": "How satisfied are you with your job?"
+        },
+        "2": {
+          "questionText": "How do you rate your communication with your team members?"
+        },
+        "3": {
+          "questionText": "Are you satisfied with the benefits our company offers?",
+          "options": {
+            "1": "Yes",
+            "2": "No",
+            "3": "Partially"
+          }
+        },
+        "4": {
+          "questionText": "How can we improve our working environment?"
+        },
+        "5": {
+          "questionText": "Do you find the support from your managers sufficient?",
+          "options": {
+            "1": "Yes",
+            "2": "No",
+            "3": "Partially"
+          }
+        }
+      }
+    },
+    "productFeedback": {
+      "title": "Product Feedback Survey",
+      "description": "Share your opinions about our new product with us.",
+      "questions": {
+        "1": {
+          "questionText": "How do you find the design of the product?"
+        },
+        "2": {
+          "questionText": "How often do you use the product?",
+          "options": {
+            "1": "Every day",
+            "2": "Several times a week",
+            "3": "Several times a month",
+            "4": "Rarely"
+          }
+        },
+        "3": {
+          "questionText": "Do you have any issues with the product?"
+        },
+        "4": {
+          "questionText": "How would you rate the price of the product?"
+        },
+        "5": {
+          "questionText": "Would you recommend the product to your friends or family?",
+          "options": {
+            "1": "Yes",
+            "2": "No",
+            "3": "Not Sure"
+          }
+        }
+      }
+    },
+    "websiteUsability": {
+      "title": "Website Usability Survey",
+      "description": "We would like to know your thoughts on the usability of our website.",
+      "questions": {
+        "1": {
+          "questionText": "How easy was it to find our website?"
+        },
+        "2": {
+          "questionText": "How would you rate the design of our website?"
+        },
+        "3": {
+          "questionText": "Did you easily find the information you were looking for?",
+          "options": {
+            "1": "Yes",
+            "2": "No",
+            "3": "Partially"
+          }
+        },
+        "4": {
+          "questionText": "What are your suggestions for improving our website?"
+        },
+        "5": {
+          "questionText": "Would you visit our website again?",
+          "options": {
+            "1": "Yes",
+            "2": "No",
+            "3": "Not Sure"
+          }
+        }
+      }
+    },
+    "eventFeedback": {
+      "title": "Event Feedback Survey",
+      "description": "Share your opinions about the event we organized.",
+      "questions": {
+        "1": {
+          "questionText": "How would you rate the overall organization of the event?"
+        },
+        "2": {
+          "questionText": "Did the event content meet your expectations?",
+          "options": {
+            "1": "Yes",
+            "2": "No",
+            "3": "Partially"
+          }
+        },
+        "3": {
+          "questionText": "Did you experience any issues during the event?"
+        },
+        "4": {
+          "questionText": "What are your suggestions for future events?"
+        },
+        "5": {
+          "questionText": "Would you recommend the event to your friends or colleagues?",
+          "options": {
+            "1": "Yes",
+            "2": "No",
+            "3": "Not Sure"
+          }
+        }
+      }
+    },
+    "mobileAppExperience": {
+      "title": "Mobile App Experience Survey",
+      "description": "Share your experience while using our mobile application.",
+      "questions": {
+        "1": {
+          "questionText": "How do you find the speed of our application?"
+        },
+        "2": {
+          "questionText": "Is the application's interface user-friendly?",
+          "options": {
+            "1": "Yes",
+            "2": "No",
+            "3": "Partially"
+          }
+        },
+        "3": {
+          "questionText": "What features would you like us to add to the application?"
+        },
+        "4": {
+          "questionText": "How would you rate the design of the application?"
+        },
+        "5": {
+          "questionText": "How often do you use the application?",
+          "options": {
+            "1": "Every day",
+            "2": "Several times a week",
+            "3": "Several times a month",
+            "4": "Rarely"
+          }
+        }
+      }
+    }
+  },
+  "loading": "Loading...",
+  "surveyResults": "Survey Results",
+  "noCompletedSurveys": "No completed surveys yet.",
+  "viewResults": "View Results",
+  "writeYourAnswer": "Write your answer...",
+  "back": "Back",
+  "finish": "Finish",
+  "next": "Next",
+  "totalTimeSpent": "Total Time Spent",
+  "averageTimePerQuestion": "Average Time Per Question",
+  "seconds": "s",
+  "yourAnswer": "Your Answer",
+  "notAnswered": "Not Answered",
+  "timeSpent": "Time Spent",
+  "answerTime": "Answer Time",
+  "returnToSurveys": "Return to Surveys",
+  "logout": "Logout",
+  "usernameRequired": "Username is required",
+  "usernamePlaceholder": "Username",
+  "passwordRequired": "Password is required",
+  "passwordPlaceholder": "Password",
+  "telephoneRequired": "Telephone is required",
+  "telephonePlaceholder": "Telephone",
+  "registrationSuccess": "Registration Successful!",
+  "do_you_have_account": "Do you have an account?",
+  "kvkkConsentText": "Accept Kvkk consents",
+  "profileUpdateSuccess": "Profile updated successfully.",
+  "profileUpdateFailed": "Update failed: {{error}}",
+  "personalInfo": "Personal Information",
+  "firstName": "First Name",
+  "firstNameRequired": "First name is required.",
+  "firstNamePlaceholder": "Enter first name",
+  "lastName": "Last Name",
+  "lastNameRequired": "Last name is required.",
+  "lastNamePlaceholder": "Enter last name",
+  "email": "Email",
+  "emailRequired": "Email is required.",
+  "invalidEmail": "Please enter a valid email address.",
+  "emailPlaceholder": "Enter email",
+  "profileUpdateButton": "Update Profile",
+  "update": "Update"
+}

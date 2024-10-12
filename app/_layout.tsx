@@ -1,27 +1,57 @@
 import { useFonts } from 'expo-font';
-import { SplashScreen, Stack } from 'expo-router';
-import { useEffect } from 'react';
-import { TamaguiProvider } from 'tamagui';
+import { Stack } from 'expo-router';
+import * as SplashScreen from 'expo-splash-screen';
+import React, { Suspense, useEffect } from 'react';
+import { TamaguiProvider, Theme } from 'tamagui';
 
+import '../i18n';
 import config from '../tamagui.config';
+import { ReduxProvider } from './providers';
 
-export default function Layout() {
-  const [loaded] = useFonts({
+import LoadingIndicator from '~/components/LoadingIndicator';
+import { useAppSelector } from '~/redux/hook';
+import { RootState } from '~/redux/store';
+
+const Layout: React.FC = () => {
+  const [fontsLoaded] = useFonts({
     Inter: require('@tamagui/font-inter/otf/Inter-Medium.otf'),
     InterBold: require('@tamagui/font-inter/otf/Inter-Bold.otf'),
   });
 
-  useEffect(() => {
-    if (loaded) {
-      SplashScreen.hideAsync();
-    }
-  }, [loaded]);
+  const theme = useAppSelector((state: RootState) => state.theme.theme);
 
-  if (!loaded) return null;
+  useEffect(() => {
+    async function handleSplashScreen() {
+      if (fontsLoaded) {
+        await SplashScreen.hideAsync();
+      } else {
+        await SplashScreen.preventAutoHideAsync();
+      }
+    }
+    handleSplashScreen();
+  }, [fontsLoaded]);
+
+  if (!fontsLoaded) {
+    return null;
+  }
 
   return (
-    <TamaguiProvider config={config}>
-      <Stack />
-    </TamaguiProvider>
+    <Suspense fallback={<LoadingIndicator />}>
+      <TamaguiProvider config={config} defaultTheme="light">
+        <Theme name={theme}>
+          <Stack screenOptions={{ headerShown: false }} />
+        </Theme>
+      </TamaguiProvider>
+    </Suspense>
   );
-}
+};
+
+const App: React.FC = () => {
+  return (
+    <ReduxProvider>
+      <Layout />
+    </ReduxProvider>
+  );
+};
+
+export default App;

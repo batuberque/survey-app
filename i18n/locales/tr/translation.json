@@ -1,0 +1,254 @@
+{
+  "welcome": "Hoşgeldiniz",
+  "toggle_theme_dark": "Koyu Mod'a Geç",
+  "toggle_theme_light": "Aydınlık Mod'a Geç",
+  "change_language": "Dili Değiştir",
+  "item_count": "{{count}} öğeniz var",
+  "item_count_plural": "{{count}} öğeniz var",
+  "HOME": "ANASAYFA",
+  "SURVEY": "ANKET",
+  "PROFILE": "PROFİL",
+  "RESULT": "SONUÇLAR",
+  "start_survey": "Ankete Başla",
+  "survey_intro": "Anket Bilgisi",
+  "language": "Kullanıcı Dili",
+  "dark_mode": "Karanlık Mod",
+  "not_remember_create_account": "Hesap Oluşturun",
+  "login": "Giriş Yap",
+  "signup": "Kayıt Ol",
+  "survey": {
+    "customerSatisfaction": {
+      "title": "Müşteri Memnuniyeti Anketi",
+      "description": "Ürün ve hizmetlerimiz hakkındaki görüşlerinizi öğrenmek istiyoruz.",
+      "questions": {
+        "1": {
+          "questionText": "Ürünlerimizden ne kadar memnunsunuz?"
+        },
+        "2": {
+          "questionText": "Hangi ürünlerimizi kullandınız?",
+          "options": {
+            "1": "Ürün A",
+            "2": "Ürün B",
+            "3": "Ürün C"
+          }
+        },
+        "3": {
+          "questionText": "Bizimle ilgili düşünceleriniz nelerdir?"
+        },
+        "4": {
+          "questionText": "Müşteri hizmetlerimizin kalitesini nasıl değerlendirirsiniz?"
+        },
+        "5": {
+          "questionText": "Ürünlerimizin fiyatlarını nasıl buluyorsunuz?",
+          "options": {
+            "1": "Çok Uygun",
+            "2": "Uygun",
+            "3": "Pahalı",
+            "4": "Çok Pahalı"
+          }
+        },
+        "6": {
+          "questionText": "İyileştirebileceğimiz alanlar nelerdir?"
+        }
+      }
+    },
+    "employeeSatisfaction": {
+      "title": "Çalışan Memnuniyeti Anketi",
+      "description": "Çalışma ortamımız hakkındaki geri bildirimleriniz bizim için önemli.",
+      "questions": {
+        "1": {
+          "questionText": "İşinizden ne kadar memnunsunuz?"
+        },
+        "2": {
+          "questionText": "Ekip arkadaşlarınızla olan iletişiminizi nasıl değerlendirirsiniz?"
+        },
+        "3": {
+          "questionText": "Şirketimizin sunduğu olanaklardan memnun musunuz?",
+          "options": {
+            "1": "Evet",
+            "2": "Hayır",
+            "3": "Kısmen"
+          }
+        },
+        "4": {
+          "questionText": "Çalışma ortamımızı nasıl geliştirebiliriz?"
+        },
+        "5": {
+          "questionText": "Yöneticilerinizden aldığınız desteği yeterli buluyor musunuz?",
+          "options": {
+            "1": "Evet",
+            "2": "Hayır",
+            "3": "Kısmen"
+          }
+        }
+      }
+    },
+    "productFeedback": {
+      "title": "Ürün Geri Bildirim Anketi",
+      "description": "Yeni ürünümüz hakkındaki görüşlerinizi bizimle paylaşın.",
+      "questions": {
+        "1": {
+          "questionText": "Ürünün tasarımını nasıl buldunuz?"
+        },
+        "2": {
+          "questionText": "Ürünü hangi sıklıkla kullanıyorsunuz?",
+          "options": {
+            "1": "Her gün",
+            "2": "Haftada birkaç kez",
+            "3": "Ayda birkaç kez",
+            "4": "Nadiren"
+          }
+        },
+        "3": {
+          "questionText": "Ürünle ilgili yaşadığınız sorunlar var mı?"
+        },
+        "4": {
+          "questionText": "Ürünün fiyatını nasıl değerlendirirsiniz?"
+        },
+        "5": {
+          "questionText": "Ürünü arkadaşlarınıza veya ailenize tavsiye eder misiniz?",
+          "options": {
+            "1": "Evet",
+            "2": "Hayır",
+            "3": "Emin Değilim"
+          }
+        }
+      }
+    },
+    "websiteUsability": {
+      "title": "Web Sitesi Kullanılabilirlik Anketi",
+      "description": "Web sitemizin kullanılabilirliği hakkındaki düşüncelerinizi öğrenmek istiyoruz.",
+      "questions": {
+        "1": {
+          "questionText": "Web sitemizi ne kadar kolay buldunuz?"
+        },
+        "2": {
+          "questionText": "Web sitemizin tasarımını nasıl değerlendirirsiniz?"
+        },
+        "3": {
+          "questionText": "Aradığınız bilgileri kolayca bulabildiniz mi?",
+          "options": {
+            "1": "Evet",
+            "2": "Hayır",
+            "3": "Kısmen"
+          }
+        },
+        "4": {
+          "questionText": "Web sitemizi geliştirmek için önerileriniz nelerdir?"
+        },
+        "5": {
+          "questionText": "Web sitemizi tekrar ziyaret eder misiniz?",
+          "options": {
+            "1": "Evet",
+            "2": "Hayır",
+            "3": "Emin Değilim"
+          }
+        }
+      }
+    },
+    "eventFeedback": {
+      "title": "Etkinlik Geri Bildirim Anketi",
+      "description": "Düzenlediğimiz etkinlik hakkındaki görüşlerinizi bizimle paylaşın.",
+      "questions": {
+        "1": {
+          "questionText": "Etkinliğin genel organizasyonunu nasıl değerlendirirsiniz?"
+        },
+        "2": {
+          "questionText": "Etkinlik içeriği beklentilerinizi karşıladı mı?",
+          "options": {
+            "1": "Evet",
+            "2": "Hayır",
+            "3": "Kısmen"
+          }
+        },
+        "3": {
+          "questionText": "Etkinlik sırasında yaşadığınız herhangi bir sorun var mı?"
+        },
+        "4": {
+          "questionText": "Gelecekteki etkinlikler için önerileriniz nelerdir?"
+        },
+        "5": {
+          "questionText": "Etkinliği arkadaşlarınıza veya meslektaşlarınıza tavsiye eder misiniz?",
+          "options": {
+            "1": "Evet",
+            "2": "Hayır",
+            "3": "Emin Değilim"
+          }
+        }
+      }
+    },
+    "mobileAppExperience": {
+      "title": "Mobil Uygulama Deneyimi Anketi",
+      "description": "Mobil uygulamamızı kullanırken yaşadığınız deneyimi bizimle paylaşın.",
+      "questions": {
+        "1": {
+          "questionText": "Uygulamamızın hızını nasıl buldunuz?"
+        },
+        "2": {
+          "questionText": "Uygulamanın arayüzü kullanıcı dostu mu?",
+          "options": {
+            "1": "Evet",
+            "2": "Hayır",
+            "3": "Kısmen"
+          }
+        },
+        "3": {
+          "questionText": "Uygulamada hangi özellikleri eklememizi istersiniz?"
+        },
+        "4": {
+          "questionText": "Uygulamanın tasarımını nasıl değerlendirirsiniz?"
+        },
+        "5": {
+          "questionText": "Uygulamayı ne sıklıkla kullanıyorsunuz?",
+          "options": {
+            "1": "Her gün",
+            "2": "Haftada birkaç kez",
+            "3": "Ayda birkaç kez",
+            "4": "Nadiren"
+          }
+        }
+      }
+    }
+  },
+  "loading": "Yükleniyor...",
+  "surveyResults": "Anket Sonuçları",
+  "noCompletedSurveys": "Henüz tamamlanan anket bulunmamaktadır.",
+  "viewResults": "Sonuçları Görüntüle",
+  "writeYourAnswer": "Cevabınızı yazın...",
+  "back": "Geri",
+  "finish": "Bitir",
+  "next": "İleri",
+  "totalTimeSpent": "Toplam Harcanan Süre",
+  "averageTimePerQuestion": "Soru Başına Ortalama Süre",
+  "seconds": "sn",
+  "yourAnswer": "Cevabınız",
+  "notAnswered": "Cevaplanmadı",
+  "timeSpent": "Harcanan Süre",
+  "answerTime": "Cevap Zamanı",
+  "returnToSurveys": "Anketlere Dön",
+  "logout": "Çıkış Yap",
+  "emailRequired": "E-posta gerekli",
+  "emailPlaceholder": "E-posta",
+  "usernameRequired": "Kullanıcı adı gerekli",
+  "usernamePlaceholder": "Kullanıcı Adı",
+  "passwordRequired": "Şifre gerekli",
+  "passwordPlaceholder": "Şifre",
+  "telephoneRequired": "Telefon gerekli",
+  "telephonePlaceholder": "Telefon",
+  "registrationSuccess": "Kayıt Başarılı!",
+  "do_you_have_account": "Hesabınız Var Mı?",
+  "kvkkConsentText": "Kvkk Haklarını kabul et",
+  "profileUpdateSuccess": "Profil başarıyla güncellendi.",
+  "profileUpdateFailed": "Güncelleme başarısız: {{error}}",
+  "personalInfo": "Kişisel Bilgiler",
+  "firstName": "İsim",
+  "firstNameRequired": "İsim zorunludur.",
+  "firstNamePlaceholder": "İsim girin",
+  "lastName": "Soyisim",
+  "lastNameRequired": "Soyisim zorunludur.",
+  "lastNamePlaceholder": "Soyisim girin",
+  "email": "Email",
+  "invalidEmail": "Geçerli bir email adresi giriniz.",
+  "profileUpdateButton": "Profil Güncelle",
+  "update": "Güncelle"
+}

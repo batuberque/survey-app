@@ -80,7 +80,7 @@ const config = createTamagui({
   light: {
     color: {
       background: 'gray',
-      text: 'black',
+      text: 'white',
     },
   },
   defaultFont: 'body',
@@ -91,6 +91,22 @@ const config = createTamagui({
   fonts: {
     body: bodyFont,
     heading: headingFont,
+  },
+  theme: {
+    light: {
+      background: '#FFFFFF',
+      color: '#000000',
+      colorSubtle: '#666666',
+      borderColor: '#DDDDDD',
+      primary: '#6200ee',
+    },
+    dark: {
+      background: '#000000',
+      color: '#FFFFFF',
+      colorSubtle: '#AAAAAA',
+      borderColor: '#333333',
+      primary: '#bb86fc',
+    },
   },
   themes,
   tokens,
