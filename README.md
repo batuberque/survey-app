@@ -63,6 +63,7 @@ Mobil Anket Uygulaması, kullanıcıların çeşitli konularda anket soruların�
 5. Mobil cihazda çalıştırmak için:
     - Expo uygulamasını mobil cihazınıza indirin.
     - QR kodunu taratarak uygulamayı cihazınızda başlatın.
+    - IOS cihazda test edilmesi tavsiye edilir.
 
 ## Proje Yapısı
 
